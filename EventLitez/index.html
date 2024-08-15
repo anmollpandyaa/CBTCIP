@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventLitez</title>
+    <link rel="Website icon" href="assets/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>EventLitez</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#create">Create Event</a></li>
+                    <li><a href="#view">Upcoming Events</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="info">
+            <h1>Welcome to EventLitez!</h1><br>
+            <p>EventLitez is your go-to platform for finding and managing upcoming events. <br> Whether you're looking
+                for community gatherings,
+                workshops, conferences, or social events, <br> EventLitez makes it easy to stay informed and never miss
+                out.</p> <br><br>
+
+            <h1>Why EventLitez?</h1><br>
+            <p>At EventLitez, we believe in simplicity and functionality. Our platform is designed to provide a seamless
+                experience</p><br><br>
+
+            <h4>Start listing your own event now!</h4><br><br> <a href="#create"><button class="create-button">Create
+                    Event</button></a>
+        </div>
+        <div class="banner">
+            <img src="assets/banner.png" alt="banner">
+        </div>
+    </div>
+
+    <div id="create"></div>
+    <h1 class="heading">Create an Event</h1>
+    <div class="event-form">
+        <form id="eventForm">
+            <label>Event Name</label>
+            <input type="text" id="eventName" placeholder="Event Name" required><br>
+            <label>Event Date</label>
+            <input type="date" id="eventDate" required><br>
+            <label>Event Time</label>
+            <input type="time" id="eventTime" required><br>
+            <label>Event Location</label>
+            <input type="text" id="eventLocation" placeholder="Location" required><br>
+            <button type="submit">Add Event</button>
+        </form>
+    </div>
+
+    <div id="view"></div>
+    <h1 class="heading">Upcoming Events</h1>
+
+    <div class="event-container">
+        <ul id="eventList"></ul>
+    </div>
+
+    <div id="about"></div>
+    <footer>
+        <div class="container">
+            <div class="idea">
+                <h3>About EventLitez</h3><br>
+                <p>
+                    EventLitez is a beginner-friendly project aimed at developing a simple yet functional event listing
+                    website using HTML, CSS,
+                    and basic JavaScript. This project will provide users with an intuitive platform to create, view,
+                    and manage events, making
+                    it an excellent introduction to front-end web development.</p>
+                <p>Please note that EventLitez is made for learning purposes only. It does not manage in real time and
+                    do not claim to provide
+                    any kind of professional service
+                </p><br>
+                <h5>Thank you for visiting EventLitez!</h5><br><br>
+            </div>
+
+            <div class="links">
+                <h5>If you wish to collab with me, you can connect with me via social media links provided below.</h5>
+                <br>
+                <ul>
+                    <a href="https://www.linkedin.com/in/anmollpandyaa">Linkedin</a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
